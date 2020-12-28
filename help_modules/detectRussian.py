@@ -8,7 +8,7 @@ LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower() + ' \t\n'
 
 
 def loadDictionary():
-    dictionaryFile = open('russian_utf.txt')
+    dictionaryFile = open('help_modules/russian_utf.txt')
     russianWords = {}
     for word in dictionaryFile.read().split('\n'):
         russianWords[word] = None
